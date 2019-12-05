@@ -3,7 +3,7 @@ import React from 'react';
 const Display = ({strikes, balls}) => {
 
     return (
-        <div className='scoreboard'>
+        <div data-testid='scoreboard' className='scoreboard'>
             <div className="bottomRow">
                 <div className="toGo">
                     <h3 className="toGo__title">Strikes</h3>

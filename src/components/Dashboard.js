@@ -10,7 +10,7 @@ const Dashboard = ({addBall, addStrike, foulBall, hitBall}) => {
                         onClick={addStrike}
                         className="homeButtons__touchdown"
                     >
-                        Strikes
+                        Strike
                     </button>
                     <button
                         onClick={addBall}
